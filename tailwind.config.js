@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",   // ← React/Vite 경로 지정
+    "./src/**/*.{js,ts,jsx,tsx}", // ← React/Vite 경로 지정
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
+

@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-10">
       <div className="bg-white shadow-xl rounded-2xl p-6 w-full max-w-4xl">
-        <h1 className="text-2xl font-bold mb-4">TUI Web Editor + React</h1>
+        <h1 className="text-2xl font-bold mb-4">TUI 웹 에디터</h1>
 
         {/* 실제 Editor는 여기 div에 붙음 */}
         <div ref={editorRef} />
